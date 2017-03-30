@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/*reference list*/
+#lefty {
+			float: left;
+			width: 49%;
+			font-size: 13px;
+		}
+
+#righty {
+	float: right;
+	width: 51%;
+	font-size: 13px;
+}
+/* link styling */
+a:link.a1 {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited.a1 {
+	color: skyblue;
+	text-decoration: none;
+}
+
+a:hover.a1 {
+	text-decoration: underline;
+}
+
+a:active.a1 {
+	background-color: black;
+    color: white;
+    padding: 3px 5px;
+}
+
+/*picture links*/
+a:link.a2 {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited.a2 {
+	color: skyblue;
+	text-decoration: none;
+}
+
+a:hover.a2 {
+	text-decoration: underline;
+}
+
+a:active.a2 {
+	text-decoration: none;
+}
+
+/*main text*/
+p {
+	font-family: "Raleway", arial;
+}
+
+h1 {
+	color: #57102C;
+}
+
+
+/* pictures */
+figure {
+	border: 1px solid black;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	margin-right: 1340px;
+	background-color: #F4F9F8;
+	
+}
+.zero {
+	float: left;
+}
+.one {
+	float: right;
+}
+
+
+/*headers */
+h2, h1, #p2 {
+	font-family: "Open Sans", Arial;
+}
+
+h2 {
+	color: #000769;
+}
+
+/*pictures and links positioning*/
+.pictures {
+	position: relative;
+	width: 1500px;
+	height: 5000px;
+}
+
+#topleft {
+	position: absolute;
+}
+
+#topmid {
+	position: absolute;
+	left: 350px;
+}
+
+#topmidtwo {
+	position: absolute;
+	left: 700px;
+}
+
+#topright {
+	position: absolute;
+	left: 1050px;
+}
+
+#midleft {
+	position: absolute;
+	top: 300px;
+}
+
+#midmid {
+	position: absolute;
+	top: 300px;
+	left: 350px;
+}
+
+#midmidtwo {
+	position: absolute;
+	top: 300px;
+	left: 700px;
+}
+
+#midright {
+	position: absolute;
+	top: 300px;
+	left: 1050px;
+}
+
+#bottomleft {
+	position: absolute;
+	top: 600px;
+}
+
+#bottomright {
+	position: absolute;
+	top: 600px;
+	left: 350px;
+}
+
+/*contents styling*/
+#olone {
+	border: 1px solid black;
+	padding-bottom: 15px;
+	margin-right: 1400px;
+	background-color: #F4F9F8;
+}
+
+/* reference styling*/
+#righty {
+	background-color: #F4F9F8;
+}
+
+#lefty {
+	background-color: #F4F9F8;
+}
